@@ -18,6 +18,10 @@ int lower_bound(int arr[], int n, int num){
         }
 
         else{
+            if(arr[mid-1] == num)
+                r = mid-1;
+            
+            else
             return mid;
         }
     }
