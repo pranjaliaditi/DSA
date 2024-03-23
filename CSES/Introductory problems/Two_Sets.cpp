@@ -64,3 +64,12 @@ int32_t main(){
     cout << b[i] << " ";
 
 }
+// description
+// check if sum is even
+// if even
+// then make two sets, a and b of 4 elements after 3 ie 4 5 6 7
+// and in a put 4 & 7
+// and in b put 5 & 6
+// by this we evenly distribute the upcoming numbers
+// and then when a new even comes
+// put it where n/2 is present and then put n/2 in other set.
