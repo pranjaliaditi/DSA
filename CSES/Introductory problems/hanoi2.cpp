@@ -22,3 +22,7 @@ int main (){
     for(int i = 0; i<seq.size(); i++)
     cout << seq[i].first << " " << seq[i].second << "\n";
 }
+
+// n-1, A to B using C
+// N A to C
+// n-1 B to C using A
